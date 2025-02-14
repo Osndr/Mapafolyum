@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_854bc5d88675c073fcae97def971a2ac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.66.2/L.Control.Locate.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.66.2/L.Control.Locate.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_854bc5d88675c073fcae97def971a2ac" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_854bc5d88675c073fcae97def971a2ac = L.map(
+                "map_854bc5d88675c073fcae97def971a2ac",
+                {
+                    center: [6.5511926, -75.82380079999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_53bdfbfef3be214e25bd440d173c1be3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_53bdfbfef3be214e25bd440d173c1be3.addTo(map_854bc5d88675c073fcae97def971a2ac);
+        
+    
+            var circle_marker_1cf623098ad8037fa330727d6a143d33 = L.circleMarker(
+                [6.555259, -75.826867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_854bc5d88675c073fcae97def971a2ac);
+        
+    
+        var popup_93a20b38c14ddddb0ad6dbb1612c4537 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21b14b86b589c547c68c97d94454b940 = $(`<div id="html_21b14b86b589c547c68c97d94454b940" style="width: 100.0%; height: 100.0%;">EMPRESAS PÂšBLICAS DE MEDELLIN E.S.P, Total general 1: 0.0, # De Instalacion: 190042100000050000</div>`)[0];
+                popup_93a20b38c14ddddb0ad6dbb1612c4537.setContent(html_21b14b86b589c547c68c97d94454b940);
+            
+        
+
+        circle_marker_1cf623098ad8037fa330727d6a143d33.bindPopup(popup_93a20b38c14ddddb0ad6dbb1612c4537)
+        ;
+
+        
+    
+    
+            var circle_marker_d4069883007631049f461349a9a0df13 = L.circleMarker(
+                [6.550353, -75.823331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_854bc5d88675c073fcae97def971a2ac);
+        
+    
+        var popup_e4add88e35d0d7b43329e5d181da9b0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7686a2c9fa41361100e159a36a41566 = $(`<div id="html_a7686a2c9fa41361100e159a36a41566" style="width: 100.0%; height: 100.0%;">RUBEN DARIO HERNANDEZ ROBLEDO, Total general 1: 499716.23, # De Instalacion: 190042100000400000</div>`)[0];
+                popup_e4add88e35d0d7b43329e5d181da9b0d.setContent(html_a7686a2c9fa41361100e159a36a41566);
+            
+        
+
+        circle_marker_d4069883007631049f461349a9a0df13.bindPopup(popup_e4add88e35d0d7b43329e5d181da9b0d)
+        ;
+
+        
+    
+    
+            var circle_marker_53f547d89e3aa1db258824d6ef44d3b7 = L.circleMarker(
+                [6.550353, -75.823331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_854bc5d88675c073fcae97def971a2ac);
+        
+    
+        var popup_86ea8d9d420194576f39e33c9ac2d976 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35d99661c3802c8faafa4eb360ce0ee4 = $(`<div id="html_35d99661c3802c8faafa4eb360ce0ee4" style="width: 100.0%; height: 100.0%;">QUARK UP LTADA, Total general 1: 178133.07, # De Instalacion: 190042100000450000</div>`)[0];
+                popup_86ea8d9d420194576f39e33c9ac2d976.setContent(html_35d99661c3802c8faafa4eb360ce0ee4);
+            
+        
+
+        circle_marker_53f547d89e3aa1db258824d6ef44d3b7.bindPopup(popup_86ea8d9d420194576f39e33c9ac2d976)
+        ;
+
+        
+    
+    
+            var circle_marker_69f8a480889fec0741b78b9a30bd1434 = L.circleMarker(
+                [6.550353, -75.823331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_854bc5d88675c073fcae97def971a2ac);
+        
+    
+        var popup_39cbd96669a7df2508c4b8718e5b03e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c5ab2f562497709c72df870dbd4c6e8 = $(`<div id="html_4c5ab2f562497709c72df870dbd4c6e8" style="width: 100.0%; height: 100.0%;">BARRERA ZAPATA LUIS ALFONSO, Total general 1: 0.0, # De Instalacion: 190042100000600000</div>`)[0];
+                popup_39cbd96669a7df2508c4b8718e5b03e2.setContent(html_4c5ab2f562497709c72df870dbd4c6e8);
+            
+        
+
+        circle_marker_69f8a480889fec0741b78b9a30bd1434.bindPopup(popup_39cbd96669a7df2508c4b8718e5b03e2)
+        ;
+
+        
+    
+    
+            var circle_marker_08182fa1ad96094a39a877ba1b30a247 = L.circleMarker(
+                [6.549645, -75.822144],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 2}
+            ).addTo(map_854bc5d88675c073fcae97def971a2ac);
+        
+    
+        var popup_acd528f809767da6a1f1643a496cdabc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a52f54902de75c010dbf9d49723ac98e = $(`<div id="html_a52f54902de75c010dbf9d49723ac98e" style="width: 100.0%; height: 100.0%;">MIRYAM URREGO RODRIGUEZ, Total general 1: 380797.82, # De Instalacion: 190042100001000000</div>`)[0];
+                popup_acd528f809767da6a1f1643a496cdabc.setContent(html_a52f54902de75c010dbf9d49723ac98e);
+            
+        
+
+        circle_marker_08182fa1ad96094a39a877ba1b30a247.bindPopup(popup_acd528f809767da6a1f1643a496cdabc)
+        ;
+
+        
+    
+    
+            var heat_map_df171f1d97b1e18aafe5dfe4bcb3d97a = L.heatLayer(
+                [[6.555259, -75.826867, 0.0], [6.550353, -75.823331, 499716.23], [6.550353, -75.823331, 178133.07], [6.550353, -75.823331, 0.0], [6.549645, -75.822144, 380797.82]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_df171f1d97b1e18aafe5dfe4bcb3d97a.addTo(map_854bc5d88675c073fcae97def971a2ac);
+        
+    
+            var locate_control_7b4b949217b00fc9fe6d32da444d96d4 = L.control.locate(
+                {}
+            ).addTo(map_854bc5d88675c073fcae97def971a2ac);
+            
+        
+</script>
+</html>
